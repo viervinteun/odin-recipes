@@ -4,7 +4,10 @@
 }
 
 body {
-    margin: 0px 75px 75px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 0px 2rem 2rem;
     /* clockwise top right bottom left */
     background-color: aliceblue;
 }
@@ -13,9 +16,40 @@ h1, h2, h3  {
     color:rgb(0, 0, 185);
 }
 
-.click {
-    padding: 0px 10px 5px 10px;
-    margin: 0px 12px 12px 0px;
+p {
+    margin: 1em 0em;
+}
+
+footer {
+    text-align: right;
+    font-size: x-small;
+}
+
+img {
+    flex: initial;
+    width: 720px
+}
+
+.all-recipe {
+    display:flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipe {
+    padding: 1rem;
+    margin: 0.25rem 0;
+    border-radius: 0.25rem;
+    height: 2rem;
+    width: 15rem;
+    font-size: 12pt;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -23,3 +57,6 @@ a:hover {
     color: white;
 }
 
+#index-title {
+    text-align: center;
+}
